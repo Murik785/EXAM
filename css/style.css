@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+.section_start {
+    height: 99vh;
+    background-image: url('../images/Rectangle-10.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav_wrapper {
+    display: flex;
+    z-index: 99;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.nav_container_1,
+.nav_container_2 {
+    display: flex;
+    gap: 34px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.start_main_container {
+    position: absolute;
+    top: 210px;
+}
+
+.start_main_container>img {
+    max-width: 420px;
+}
+
+.start_main_container>p {
+    margin: 24px 0 34px 0;
+}
+
+.btn_sign {
+    padding: 11px 35px;
+    background: rgba(0, 51, 255, 1);
+    color: #fff;
+    border-radius: 105px;
+    border-style: none !important;
+}
+
+.img_persons {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.btn-signup{
+    background: rgba(255, 255, 255, 0.26);
+    backdrop-filter: blur(2.5px);
+    border-radius: 105px;
+}
+
+.cont1_size{
+    font-size: 10px;
+    font-weight: 12px;
+}
+
+.cont2_size{
+    font-size: 10px;
+    font-weight: 12px;
+    color: #fff;
+}
+
+.cont2_btn{
+    width: 109px;
+    height: 32px;
+    background: rgba(255, 255, 255, 0.26);
+    backdrop-filter: blur(2.5px);
+    border-radius: 105px;
+}
+
+.cont2_size2 a{
+    margin-left: 35px;
+    top: 10px;
+    position: relative;
+
+}
