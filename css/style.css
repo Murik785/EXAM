@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
 * {
     margin: 0;
@@ -78,13 +78,13 @@ a {
 }
 
 .cont1_size{
-    font-size: 10px;
-    font-weight: 12px;
+    font-size: 12px;
+    line-height: 12px;
 }
 
 .cont2_size{
-    font-size: 10px;
-    font-weight: 12px;
+    font-size: 12px;
+    line-height: 12px;
     color: #fff;
 }
 
@@ -107,18 +107,17 @@ a {
 /* featured in section */
 
 .section_featured_in{
-    height: 20ch;
+    height: 20vh;
     margin-top: 10vh;
 }
 
 .featin_cont{
     text-align: center;
-
 }
 
 .featin_cont span{
     font-size: 13px;
-    font-weight: 15px;
+    line-height: 15px;
     color: #606060;
 }
 
@@ -132,4 +131,66 @@ a {
     height: auto;
     margin: 40px;
     mix-blend-mode: normal;
+    cursor: pointer;
+}
+
+/* sounds */
+
+
+.section_sounds{
+    height: 30vh;
+}
+
+.sounds_container{
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.sounds_container .head{
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(96, 96, 96, 0.5);
+}
+
+.sounds_container h1{
+    font-size: 48px;
+    line-height: 108%;
+    color: #272727;
+    font-weight: 900;
+}
+
+.sounds_container .colortext{
+    color: #0033ff;
+}
+
+.sounds_container .s_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    color: #958A8A;
+    margin-top: 4vh;
+}
+
+.sounds_btn .btnsounds{ 
+    width: 163px;
+    height: 37px;
+    background: #0033FF;
+    border-radius: 105px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.sounds_image{
+    height: 50vh;
+    background-image: url('../images/Vector\ 8.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin-top: 10vh;
 }
