@@ -8,6 +8,9 @@
     font-family: 'Lato', sans-serif;
 }
 
+
+/* start section */
+
 .section_start {
     height: 99vh;
     background-image: url('../images/Rectangle-10.png');
@@ -16,9 +19,7 @@
     background-position: center;
 }
 
-
-ul,
-ol {
+ul, ol {
     list-style: none;
 }
 
@@ -93,11 +94,42 @@ a {
     background: rgba(255, 255, 255, 0.26);
     backdrop-filter: blur(2.5px);
     border-radius: 105px;
+    cursor: pointer;
 }
 
 .cont2_size2 a{
     margin-left: 35px;
     top: 10px;
     position: relative;
+}
 
+
+/* featured in section */
+
+.section_featured_in{
+    height: 20ch;
+    margin-top: 10vh;
+}
+
+.featin_cont{
+    text-align: center;
+
+}
+
+.featin_cont span{
+    font-size: 13px;
+    font-weight: 15px;
+    color: #606060;
+}
+
+.featin_img{
+    display: flex;
+    justify-content: center;
+}
+
+.featin_img img{
+    width: 10%;
+    height: auto;
+    margin: 40px;
+    mix-blend-mode: normal;
 }
