@@ -195,7 +195,7 @@ a {
 /* plugins */
 
 .section_plugins{
-    height: 100vh;
+    height: 140vh;
     background-image: url('../images/Rectangle-11.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -211,11 +211,165 @@ a {
 }
 
 .plugins_logos{
-    margin-top: 320px;
+    margin-top: 400px;
+    margin-left: 100px;
+    position: relative;
+}
+
+.ellipse1{
+    width: 200px;
+    height: 200px;
+    background: #f4f6f9;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    left: 120px;
+    position: absolute;
+    z-index: 100;
+}
+
+.ellipse1 .logo7{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-image: url('../images/Logo\ 7.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 10px 20px rgba(41, 41, 42, 0.07));
+    position: absolute;
+    left: 60px;
+    top: -32px;
+    
+
+}
+
+.ellipse1 .logo9{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-image: url('../images/Logo\ 9.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 10px 20px rgba(41, 41, 42, 0.07));
+    position: absolute;
+    left: 145px;
+    bottom: 0px;
+}
+
+.ellipse1 .logo8{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-image: url('../images/Logo\ 8.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 10px 20px rgba(41, 41, 42, 0.07));
+    position: absolute;
+    top: 115px;
+    left: -25px;
+}
+
+
+.ellipse2{
+    width: 340px;
+    height: 340px;
+    background: radial-gradient(50% 50% at 50% 50%, #816FFF 0%, rgba(129, 64, 155, 0) 100%);
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    bottom: -270px;
+    left: 50px;
+    position: absolute;
+}
+
+.ellipse3{
+    width: 486px;
+    height: 486px;
+    border: 3px solid rgba(126, 112, 255, 0.28);
+    border-radius: 50%;
+    position: absolute;
+    top: -141px;
+    left: -21px;
+}
+
+.ellipse3 .logo1{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-image: url('../images/Logo\ 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 10px 20px rgba(41, 41, 42, 0.07));
+    position: absolute;
+    left: 198px;
+    top: -37px;
+}
+
+.ellipse3 .logo3{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-image: url('../images/Logo\ 3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 10px 20px rgba(41, 41, 42, 0.07));
+    position: absolute;
+    left: 420px;
+    top: 100px;
+}
+
+.ellipse3 .logo5{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-image: url('../images/Logo\ 5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 10px 20px rgba(41, 41, 42, 0.07));
+    position: absolute;
+    right: -20px;
+    top: 320px;
+}
+
+.ellipse3 .logo6{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-image: url('../images/Logo\ 6.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 10px 20px rgba(41, 41, 42, 0.07));
+    position: absolute;
+    bottom: -50px;
+    left: 198px;
+}
+
+.ellipse3 .logo4{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-image: url('../images/Logo\ 4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 10px 20px rgba(41, 41, 42, 0.07));
+    position: absolute;
+    top: 100px;
+    left: -20px;
+}
+
+.ellipse3 .logo2{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-image: url('../images/Logo\ 2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 10px 20px rgba(41, 41, 42, 0.07));
+    position: absolute;
+    bottom: 70px;
+    left: -10px;
 }
 
 .plugins_text{
-    margin-top: 180px;
+    margin-top: 380px;
     margin-right: 140px;
 }
 
