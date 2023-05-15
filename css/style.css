@@ -8,6 +8,13 @@
     font-family: 'Lato', sans-serif;
 }
 
+.animation{
+    animation-name: logos;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
 
 /* start section */
 
@@ -369,8 +376,8 @@ a {
 }
 
 .plugins_text{
-    margin-top: 380px;
-    margin-right: 140px;
+    margin-top: 480px;
+    margin-right: 100px;
 }
 
 .plugins_text span{
@@ -400,4 +407,36 @@ a {
     line-height: 14px;
     color: #FFFFFF;
     cursor: pointer
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes logos{
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
