@@ -420,7 +420,50 @@ a {
 /* studio */
 
 
+.section_studio{
+    height: 65vh;
+    margin-top: 100px;
+}
 
+.studio_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.studio_texts{
+    margin-left: 70px;
+}
+
+.studio_texts .head_st{
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(96, 96, 96, 0.5);
+}
+
+.studio_texts h1{
+    font-size: 48px;
+    line-height: 108%;
+    font-weight: 900;
+}
+
+.studio_texts p{
+    font-size: 18px;
+    line-height: 171%;
+    color: #958A8A;
+}
+
+.studio_btn .btnstudio{
+    width: 163px;
+    height: 37px;
+    background: #0033FF;
+    border-radius: 105px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
 
 
 
