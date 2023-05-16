@@ -466,6 +466,103 @@ a {
 }
 
 
+/* creators */
+
+
+.section_creators{
+    height: 200vh;
+    background-image: url('../images/Vector\ 7.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 100px;
+}
+
+.creators_container{
+    width: 100%;
+}
+
+.creators_text{
+    margin-top: 150px;
+}
+
+.creators_text h1{
+    font-size: 48px;
+    line-height: 108%;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+.creators_text p{
+    font-size: 18px;
+    line-height: 171%;
+    color: #958A8A;
+}
+
+.creators_btn .btncreators{
+    width: 154px;
+    height: 37px;
+    background: #0033FF;
+    border-radius: 105px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.cards{
+    position: absolute;
+    top: -185px;
+    right: 0px;
+}
+
+.card1{
+    position: absolute;
+    width: 290px;
+    height: 216px;
+    background-image: url('../images/Group\ 14.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    bottom: 550px;
+    left: 80px;
+}
+
+.card2{
+    position: absolute;
+    width: 290px;
+    height: 216px;
+    background-image: url('../images/Group\ 15.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    bottom: 550px;
+    left: 400px;
+}
+
+.card3{
+    position: absolute;
+    width: 290px;
+    height: 216px;
+    background-image: url('../images/Group\ 16.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    bottom: 280px;
+    left: 140px;
+}
+
+.card4{
+    position: absolute;
+    width: 290px;
+    height: 216px;
+    background-image: url('../images/Group\ 17.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    bottom: 280px;
+    right: 100px;
+}
+
+
+
+
 
 
 
