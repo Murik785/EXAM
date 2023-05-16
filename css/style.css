@@ -611,7 +611,49 @@ a {
 }
 
 
+/* JOB AT SPLICE */
 
+.section_jas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    /* position: relative; */
+}
+
+.jas_container{
+    width: 1280px;
+    height: 230px;
+    background: linear-gradient(95.31deg, #A659FF -28.73%, #7178FF 23.23%, #2148FF 62.74%, #FF3517 111.77%);
+    border-radius: 22px;
+    /* position: absolute; */
+    margin-bottom: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.jas_container h2{
+    font-size: 36px;
+    line-height: 108%;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 800;
+}
+
+.button_jas .jasbtn{
+    width: 184px;
+    height: 37px;
+    border: 1px solid #FFFFFF;
+    border-radius: 105px;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.26);
+    backdrop-filter: blur(2.5px);
+    color: #FFFFFF;
+    border-style: none !important;
+}
 
 
 
