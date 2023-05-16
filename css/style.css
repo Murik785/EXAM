@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Lato', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .animation{
@@ -72,7 +70,8 @@ a {
 }
 
 .btn_sign {
-    padding: 11px 35px;
+    width: 126px;
+    height: 37px;
     background: rgba(0, 51, 255, 1);
     color: #fff;
     border-radius: 105px;
@@ -193,6 +192,7 @@ a {
     line-height: 14px;
     color: #FFFFFF;
     cursor: pointer;
+    border-style: none !important;
 }
 
 
@@ -413,7 +413,8 @@ a {
     font-size: 12px;
     line-height: 14px;
     color: #FFFFFF;
-    cursor: pointer
+    cursor: pointer;
+    border-style: none !important;
 }
 
 
@@ -463,6 +464,7 @@ a {
     line-height: 14px;
     color: #FFFFFF;
     cursor: pointer;
+    border-style: none !important;
 }
 
 
@@ -470,7 +472,7 @@ a {
 
 
 .section_creators{
-    height: 200vh;
+    height: 140vh;
     background-image: url('../images/Vector\ 7.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -508,6 +510,7 @@ a {
     line-height: 14px;
     color: #FFFFFF;
     cursor: pointer;
+    border-style: none !important;
 }
 
 .cards{
@@ -559,6 +562,55 @@ a {
     bottom: 280px;
     right: 100px;
 }
+
+
+/* good sounds */
+
+.good_sounds_section{
+    height: 80vh;
+    background: #0C0C0C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-image: url('../images/Patterns.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gs_container h1{
+    text-align: center;
+    font-size: 38px;
+    line-height: 108%;
+    color: #FFFFFF;
+    font-weight: 900;
+
+}
+
+.sounds_cards{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 110px;
+    gap: 120px;
+}
+
+.sounds_cards img{
+    width: 40px;
+    height: 40px;
+}
+
+.sounds_cards h3{
+    font-size: 22px;
+    line-height: 108%;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.sounds_cards p{
+    font-size: 16px;
+    line-height: 171%;
+    color: #958A8A;
+}
+
+
 
 
 
