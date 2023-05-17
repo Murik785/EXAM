@@ -480,6 +480,7 @@ a {
     margin-top: 100px;
 }
 
+
 .creators_container{
     width: 100%;
 }
@@ -634,7 +635,6 @@ a {
     align-items: center;
 }
 
-
 .jas_container h2{
     font-size: 36px;
     line-height: 108%;
@@ -654,6 +654,65 @@ a {
     color: #FFFFFF;
     border-style: none !important;
 }
+
+
+/* footer */
+
+
+.footer{
+    position: relative;
+    bottom: 100px;
+}
+
+.footer_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_footer,
+.bottom_footer{
+    display: flex;
+    gap: 60px;
+}
+
+.footer_container h4{
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 800;
+}
+
+.footer_container p{
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.bottom_footer{
+    margin-top: 30px;
+}
+
+.foot5 span{
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.foot5 .icons i{
+    width: 16px;
+    height: 16px;
+    margin-top: 15px;
+}
+
+.foot5 .f_text1{
+    margin-top: 15px;
+}
+
+.foot5 .f_text2{
+    margin-top: 8px;
+}
+
+
+
 
 
 
