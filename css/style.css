@@ -24,9 +24,8 @@
 /* start section */
 
 .section_start {
-    height: 99vh;
-    background-image: url('../images/Rectangle-10.png');
-    background-size: cover;
+    min-height: 635px;
+    background-image: url('../images/Rectangle\ 10.png'), linear-gradient(#F4F6F9 555px, transparent 555px);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -116,7 +115,7 @@ a {
 
 .section_featured_in{
     height: 20vh;
-    margin-top: 10vh;
+    margin-top: 15%;
 }
 
 .featin_cont{
@@ -468,21 +467,15 @@ a {
 }
 
 
-/* creators */
 
-
-.section_creators{
-    height: 140vh;
-    background-image: url('../images/Vector\ 7.png');
+.creators_and_sounds{
+    min-height: 1686px;
+    background-position: center;
+    background-image: url('../images/Mask\ Group.png'), linear-gradient(#0C0C0C 1590px, transparent 1500px);
     background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
+    z-index: -100;
     margin-top: 100px;
-}
-
-
-.creators_container{
-    width: 100%;
 }
 
 .creators_text{
@@ -514,10 +507,11 @@ a {
     border-style: none !important;
 }
 
-.cards{
+.cards img{
     position: absolute;
     top: -185px;
     right: 0px;
+    z-index: 100;
 }
 
 .card1{
@@ -527,8 +521,9 @@ a {
     background-image: url('../images/Group\ 14.png');
     background-size: cover;
     background-repeat: no-repeat;
-    bottom: 550px;
-    left: 80px;
+    bottom: 79%;
+    left: 48%;
+    z-index: 100;
 }
 
 .card2{
@@ -538,8 +533,9 @@ a {
     background-image: url('../images/Group\ 15.png');
     background-size: cover;
     background-repeat: no-repeat;
-    bottom: 550px;
-    left: 400px;
+    bottom: 79%;
+    left: 69%;
+    z-index: 100;
 }
 
 .card3{
@@ -549,8 +545,9 @@ a {
     background-image: url('../images/Group\ 16.png');
     background-size: cover;
     background-repeat: no-repeat;
-    bottom: 280px;
-    left: 140px;
+    bottom: 64%;
+    left: 53%;
+    z-index: 100;
 }
 
 .card4{
@@ -560,20 +557,16 @@ a {
     background-image: url('../images/Group\ 17.png');
     background-size: cover;
     background-repeat: no-repeat;
-    bottom: 280px;
-    right: 100px;
+    bottom: 64%;
+    left: 74%;
+    z-index: 100;
 }
 
 
 /* good sounds */
 
 .good_sounds_section{
-    height: 80vh;
-    background: #0C0C0C;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background-image: url('../images/Patterns.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+    margin-top: 20%;
 }
 
 .gs_container h1{
@@ -582,13 +575,14 @@ a {
     line-height: 108%;
     color: #FFFFFF;
     font-weight: 900;
+    margin-top: 200px;
 
 }
 
 .sounds_cards{
     display: flex;
     justify-content: flex-start;
-    margin-top: 110px;
+    margin-top: 150px;
     gap: 120px;
 }
 
@@ -619,7 +613,6 @@ a {
     justify-content: center;
     align-items: center;
     height: 50vh;
-    /* position: relative; */
 }
 
 .jas_container{
@@ -627,8 +620,7 @@ a {
     height: 230px;
     background: linear-gradient(95.31deg, #A659FF -28.73%, #7178FF 23.23%, #2148FF 62.74%, #FF3517 111.77%);
     border-radius: 22px;
-    /* position: absolute; */
-    margin-bottom: 350px;
+    margin-bottom: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -660,6 +652,7 @@ a {
 
 
 .footer{
+    min-height: 480px;
     position: relative;
     bottom: 100px;
 }
