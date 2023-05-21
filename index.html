@@ -19,6 +19,7 @@
 
 
 
+
     <!-- start -->
 
     <section class="section_start">
@@ -29,7 +30,7 @@
                         <img src="images/Frame.png" alt="logo">
                     </div>
 
-                    <ul class="nav_container_1 col-8">
+                    <ul class="nav_container_1 col-lg-8">
                         <li class="cont1_size"><a href="#">STUDIO</a></li>
                         <li class="cont1_size"><a href="#">COMMUNITY</a></li>
                         <li class="cont1_size"><a href="#">SOUNDS</a></li>
@@ -37,43 +38,110 @@
                         <li class="cont1_size"><a href="#">BLOG</a></li>
                     </ul>
 
-                    <ul class="nav_container_2 col-2">
-                        <li class="cont2_size"><a href="#">LOG IN</a></li>
-                        <li class="cont2_size cont2_size2 cont2_btn"><a href="#">SIGN UP</a></li>
+                    <ul class="nav_container_2 col-lg-2">
+                        <div class="login cont2_size" onclick="document.getElementById('id00').style.display='block'"
+                            style="width:auto;">LOG IN</div>
+                        <button class="headt_btn cont2_btn"
+                            onclick="document.getElementById('id01').style.display='block'" style="width:auto;">SIGN
+                            UP</button>
                     </ul>
-
                 </nav>
 
-                <div class="start_main_container col-4">
-                    <img src="images/Group 5.png" alt="text">
+                <div id="id01" class="modal">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                        title="Close Modal">&times;</span>
+                    <form class="modal-content" action="/action_page.php">
+                        <div class="container">
+                            <h1>Sign Up</h1>
+                            <p>Please fill in this form to create an account.</p>
+                            <hr>
+                            <label for="email"><b>Email</b></label>
+                            <input type="text" placeholder="Enter Email" name="email" required>
+
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
+
+                            <label for="psw-repeat"><b>Repeat Password</b></label>
+                            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+                            <label>
+                                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">
+                                Remember me
+                            </label>
+
+                            <p>By creating an account you agree to our <a class="link" href="#">Terms & Privacy</a>.</p>
+
+                            <div class="clearfix">
+                                <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                                    class="cancelbtn">Cancel</button>
+                                <button type="submit" class="signupbtn">Sign Up</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+
+                <div id="id00" class="modal">
+                    <span onclick="document.getElementById('id00').style.display='none'" class="close"
+                        title="Close Modal">&times;</span>
+                    <form class="modal-content" action="/action_page.php">
+                        <div class="container">
+                            <h1>Login</h1>
+                            <p>Please fill in this form to Log in.</p>
+                            <hr>
+                            <label for="email"><b>Email</b></label>
+                            <input type="text" placeholder="Enter Email" name="email" required>
+
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
+
+                            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">
+                            Remember me
+                            </label>
+
+                            <p>Lost your password? <a class="link" href="#">click here</a>.</p>
+
+                            <div class="clearfix">
+                                <button type="button" onclick="document.getElementById('id00').style.display='none'"
+                                    class="cancelbtn">Cancel</button>
+                                <button type="submit" class="signupbtn">Login</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="start_main_container col-lg-4">
+                    <img src="images/Group 5.png" alt="text" class="img-fluid">
                     <p>Royalty-free sounds. Industry-leading software. Endless inspiration. Start creating with
                         Splice.</p>
-                    <button class="btn_sign">SIGN UP</button>
+                    <button class="btn btn_sign">SIGN UP</button>
                 </div>
 
-                <div>
+                <div class="col-lg-4">
                     <img class="img_persons" src="images/Vector 5.png" alt="persons">
                 </div>
-
             </div>
         </div>
     </section>
 
+
+
     <!-- featured in -->
+
 
     <section class="section_featured_in">
         <div class="container">
             <div class="row">
-                <div class="featin_cont">
-
-                    <span>FEATURED IN</span>
-
-                    <div class="featin_img">
-                        <img src="images/image 1.png" alt="img1">
-                        <img src="images/image 5.png" alt="img5">
-                        <img src="images/image 4.png" alt="img4">
-                        <img src="images/image 3.png" alt="img3">
-                        <img src="images/image 2.png" alt="img2">
+                <div class="col-12">
+                    <div class="featin_cont text-center">
+                        <span class="d-block">FEATURED IN</span>
+                        <div class="featin_img d-flex justify-content-center">
+                            <img src="images/image 1.png" alt="img1">
+                            <img src="images/image 5.png" alt="img5">
+                            <img src="images/image 4.png" alt="img4">
+                            <img src="images/image 3.png" alt="img3">
+                            <img src="images/image 2.png" alt="img2">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -82,6 +150,8 @@
 
 
     <!-- sounds -->
+
+
 
     <section class="section_sounds">
         <div class="container">
@@ -149,6 +219,7 @@
 
     <!-- studio -->
 
+
     <section class="section_studio">
         <div class="container">
             <div class="row">
@@ -169,6 +240,7 @@
             </div>
         </div>
     </section>
+
 
 
     <!-- creators and sounds-->
@@ -267,90 +339,95 @@
 
     <!-- footer -->
 
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="footer_container">
-                    <div class="top_footer">
-                        <div class="foot1">
-                            <img src="images/Frame.png" alt="logo2">
-                            <p>2021 Splice.com All Rights Reserved</p>
-                        </div>
-                        <div class="foot2">
-                            <h4>STUDIO</h4>
-                            <p>Features</p>
-                            <p>About Splice Studio</p>
-                            <p>Managing Your Production Library</p>
-                            <p>Collaborating with Baewatch</p>
-                        </div>
-                        <div class="foot3">
-                            <h4>COMMUNITY</h4>
-                            <p>Ableton Live Projects</p>
-                            <p>FL Studio Projects</p>
-                            <p>Logic Pro X Projects</p>
-                            <p>Garageband Projects</p>
-                            <p>Remix Contests</p>
-                            <p>Tiestos Secrets</p>
-                        </div>
-                        <div class="foot4">
-                            <h4>SOUNDS</h4>
-                            <p>Features</p>
-                            <p>Catalog</p>
-                            <p>How Jauz Uses Sounds</p>
-                            <p>deadmau5s Chimaera</p>
-                            <p>KSHMR Vol. 2</p>
-                        </div>
-                        <div class="foot5">
-                            <h4>FIND US ON SOCIAL</h4>
-                            <div class="icons">
-                                <i class="fa-brands fa-facebook"></i>
-                                <i class="fa-brands fa-twitter"></i>
-                                <i class="fa-brands fa-instagram"></i>
-                                <i class="fa-brands fa-youtube"></i>
-                            </div>
-                            <div class="f_text1">
-                                <span>Terms of Use</span>
-                                <span>Privacy Policy</span>
-                                <span>Jobs</span>
-                            </div>
-                            <div class="f_text2">
-                                <span>Contact</span>
-                                <span>Help</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bottom_footer">
-                        <div class="foot6">
-                            <h4>PLUGINS</h4>
-                            <p>Top VSTs</p>
-                            <p>Serum</p>
-                            <p>Rent to Own</p>
-                            <p>Free Plugins</p>
-                            <p>Top Manufacturers</p>
-                        </div>
-                        <div class="foot7">
-                            <h4>BEATMAKER</h4>
-                            <p>Create Your Own Beat</p>
-                            <p>Wakapella</p>
-                            <p>Just Blaze</p>
-                        </div>
-                        <div class="foot8">
-                            <h4>BLOG</h4>
-                            <p>Latest Posts</p>
-                            <p>Using Soundtoys Decapitator</p>
-                            <p>Mastering 101</p>
-                            <p>Producing Future Beats</p>
-                            <p>Belonging at Splice</p>
-                        </div>
-                    </div>
+    <!-- <footer class="footer"> -->
+    <div class="container">
+        <div class="row">
+            <!--  <div class="footer_container"> -->
+            <!-- <div class="top_footer"> -->
+            <div class="col-sm-4 col-lg-3">
+                <img src="images/Frame.png" alt="logo2">
+                <p>2021 Splice.com All Rights Reserved</p>
+            </div>
+            <div class="col-sm-8 col-lg-2">
+                <h4>STUDIO</h4>
+                <p>Features</p>
+                <p>About Splice Studio</p>
+                <p>Managing Your Production Library</p>
+                <p>Collaborating with Baewatch</p>
+            </div>
+            <div class="col-sm-4 col-lg-2">
+                <h4>COMMUNITY</h4>
+                <p>Ableton Live Projects</p>
+                <p>FL Studio Projects</p>
+                <p>Logic Pro X Projects</p>
+                <p>Garageband Projects</p>
+                <p>Remix Contests</p>
+                <p>Tiestos Secrets</p>
+            </div>
+            <div class="col-sm-4 col-lg-2">
+                <h4>SOUNDS</h4>
+                <p>Features</p>
+                <p>Catalog</p>
+                <p>How Jauz Uses Sounds</p>
+                <p>deadmau5s Chimaera</p>
+                <p>KSHMR Vol. 2</p>
+            </div>
+            <div class="col-sm-4 col-lg-2">
+                <h4>FIND US ON SOCIAL</h4>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+                <div class="f_text1">
+                    <span>Terms of Use</span>
+                    <span>Privacy Policy</span>
+                    <span>Jobs</span>
+                </div>
+                <div class="f_text2">
+                    <span>Contact</span>
+                    <span>Help</span>
                 </div>
             </div>
+            <!-- </div> -->
         </div>
-    </footer>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <!--   <div class="bottom_footer"> -->
+            <div class="col-sm-4">
+                <h4>PLUGINS</h4>
+                <p>Top VSTs</p>
+                <p>Serum</p>
+                <p>Rent to Own</p>
+                <p>Free Plugins</p>
+                <p>Top Manufacturers</p>
+            </div>
+            <div class="col-sm-4">
+                <h4>BEATMAKER</h4>
+                <p>Create Your Own Beat</p>
+                <p>Wakapella</p>
+                <p>Just Blaze</p>
+            </div>
+            <div class="col-sm-4">
+                <h4>BLOG</h4>
+                <p>Latest Posts</p>
+                <p>Using Soundtoys Decapitator</p>
+                <p>Mastering 101</p>
+                <p>Producing Future Beats</p>
+                <p>Belonging at Splice</p>
+            </div>
+            <!-- </div> -->
+            <!-- </div> -->
+            <!--   </div> -->
+        </div>
+        </footer>
 
 
 
-    <script src="js/main.js"></script>
+        <script src="js/main.js"></script>
 </body>
 
 </html>
