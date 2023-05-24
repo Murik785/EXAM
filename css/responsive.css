@@ -1,0 +1,17 @@
+@media screen and (max-width: 767px) {
+    .nav_container_1 {
+        display: none;
+    }
+
+    .img_persons {
+        display: none;
+    }
+
+    .section_start {
+        background-image: none;
+    }
+
+    .mobile_button {
+        display: block;
+    }
+}

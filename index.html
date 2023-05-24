@@ -10,42 +10,58 @@
     <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="icons/fontawesome-free-6.3.0-web/css/all.css">
-    <link rel="stylesheet" href="css/style.css">
+    <!-- App css -->
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="icon" href="images/Frame.png">
     <title>Splice-Landing-Page</title>
 </head>
 
 <body>
-
-
-
-
     <!-- start -->
-
     <section class="section_start">
         <div class="container">
             <div class="row">
                 <nav class="nav_wrapper">
-                    <div class="col-2">
+                    <div class="">
                         <img src="images/Frame.png" alt="logo">
                     </div>
 
-                    <ul class="nav_container_1 col-lg-8">
-                        <li class="cont1_size"><a href="#">STUDIO</a></li>
-                        <li class="cont1_size"><a href="#">COMMUNITY</a></li>
-                        <li class="cont1_size"><a href="#">SOUNDS</a></li>
-                        <li class="cont1_size"><a href="#">PLUGINS</a></li>
-                        <li class="cont1_size"><a href="#">BLOG</a></li>
+                    <ul class="nav_container_1">
+                        <li class="cont1_size"><a href="#studio">STUDIO</a></li>
+                        <li class="cont1_size"><a href="#community">COMMUNITY</a></li>
+                        <li class="cont1_size"><a href="#sounds">SOUNDS</a></li>
+                        <li class="cont1_size"><a href="#plugins">PLUGINS</a></li>
+                        <li class="cont1_size"><a href="#blog">BLOG</a></li>
                     </ul>
 
-                    <ul class="nav_container_2 col-lg-2">
+                    <ul class="nav_container_2">
                         <div class="login cont2_size" onclick="document.getElementById('id00').style.display='block'"
                             style="width:auto;">LOG IN</div>
                         <button class="headt_btn cont2_btn"
                             onclick="document.getElementById('id01').style.display='block'" style="width:auto;">SIGN
-                            UP</button>
+                            UP
+                        </button>
                     </ul>
+
+                    <div class="mobile_button">
+                        <input type="checkbox" id="active">
+                        <label for="active" class="menu-btn"><span></span></label>
+                        <label for="active" class="close"></label>
+                        <div class="wrapper">
+                            <ul>
+                                <li><a href="#">STUDIO</a></li>
+                                <li><a href="#">COMMUNITY</a></li>
+                                <li><a href="#">SOUNDS</a></li>
+                                <li><a href="#">PLUGINS</a></li>
+                                <li><a href="#">BLOG</a></li>
+                                <li><a href="#">LOG IN</a></li>
+                                <li><a href="#">SIGN UP</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </nav>
+
 
                 <div id="id01" class="modal">
                     <span onclick="document.getElementById('id01').style.display='none'" class="close"
@@ -110,14 +126,15 @@
                     </form>
                 </div>
 
-                <div class="start_main_container col-lg-4">
+                <div class="start_main_container col-xs-12 col-sm-12 col-lg-6">
                     <img src="images/Group 5.png" alt="text" class="img-fluid">
-                    <p>Royalty-free sounds. Industry-leading software. Endless inspiration. Start creating with
+                    <p class="st_text">Royalty-free sounds. Industry-leading software. Endless inspiration. Start
+                        creating with
                         Splice.</p>
-                    <button class="btn btn_sign">SIGN UP</button>
+                    <button class="btn_sign">SIGN UP</button>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="start_main_img col-xs-12 col-sm-12 col-lg-6">
                     <img class="img_persons" src="images/Vector 5.png" alt="persons">
                 </div>
             </div>
@@ -127,22 +144,17 @@
 
 
     <!-- featured in -->
-
-
     <section class="section_featured_in">
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <div class="featin_cont text-center">
-                        <span class="d-block">FEATURED IN</span>
-                        <div class="featin_img d-flex justify-content-center">
-                            <img src="images/image 1.png" alt="img1">
-                            <img src="images/image 5.png" alt="img5">
-                            <img src="images/image 4.png" alt="img4">
-                            <img src="images/image 3.png" alt="img3">
-                            <img src="images/image 2.png" alt="img2">
-                        </div>
-                    </div>
+                <span>FEATURED IN</span>
+                <div class="featin_img">
+                    <img src="images/image 1.png" class="col-xs-12 col-sm-12 col-md-4 col-lg-2" alt="img1">
+                    <img src="images/image 5.png" class="col-xs-12 col-sm-12 col-md-4 col-lg-2" alt="img5">
+                    <img src="images/image 4.png" class="col-xs-12 col-sm-12 col-md-4 col-lg-2" alt="img4">
+                    <img src="images/image 3.png" class="col-xs-12 col-sm-12 col-md-4 col-lg-2" alt="img3">
+                    <img src="images/image 2.png" class="col-xs-12 col-sm-12 col-md-4 col-lg-2" alt="img2">
+                    <img src="images/image 6.png" class="col-xs-12 col-sm-12 col-md-4 col-lg-2" alt="img6">
                 </div>
             </div>
         </div>
@@ -151,65 +163,62 @@
 
     <!-- sounds -->
 
-
-
-    <section class="section_sounds">
+    <section class="section_sounds" id="sounds">
         <div class="container">
             <div class="row">
-                <div class="sounds_container">
-                    <div class="sounds_text">
-                        <span class="head">SOUNDS</span>
-                        <h1>Find your<span class="colortext"> sound</span></h1>
-                        <div class="s_text">
-                            <p>Preview and download millions of royalty-free samples from</p>
-                            <p>top producers, artists, and sound designers. Available on</p>
-                            <p>desktop, web, and mobile.</p>
-                        </div>
-                    </div>
-                    <div class="sounds_btn">
-                        <button class="btnsounds">TRY SOUNDS</button>
-                    </div>
-                    <div class="sounds_image">
-                        <img src="images/image 12.png" alt="sounds">
-                    </div>
+                <div class="sounds_text col-12">
+                    <span class="head">SOUNDS</span>
+                    <h1>Find your<span class="colortext"> sound</span></h1>
+
+                    <p class="s_text">
+                        Preview and download millions of royalty-free samples from
+                        top producers, artists, and sound designers. Available on
+                        desktop, web, and mobile.
+                    </p>
+
+                    <button class="btnsounds">TRY SOUNDS</button>
+                </div>
+
+                <div class="sounds_image col-12">
+                    <img src="images/image 12.png" alt="sounds">
                 </div>
             </div>
         </div>
+        <div class="line_backround"></div>
     </section>
 
 
     <!-- plugins -->
 
-
     <section class="section_plugins">
-        <div class="container">
+        <div class="container" id="plugins">
             <div class="row">
-                <div class="plugins_container">
-                    <div class="plugins_logos">
-                        <div class="ellipse1 animation">
-                            <div class="logo7"></div>
-                            <div class="logo9"></div>
-                            <div class="logo8"></div>
-                        </div>
+                <div class="plugins_logos col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="ellipse1 animation">
+                        <div class="logo7"></div>
+                        <div class="logo9"></div>
+                        <div class="logo8"></div>
                         <div class="ellipse2"></div>
-                        <div class="ellipse3 animation2">
-                            <div class="logo1"></div>
-                            <div class="logo3"></div>
-                            <div class="logo5"></div>
-                            <div class="logo6"></div>
-                            <div class="logo4"></div>
-                            <div class="logo2"></div>
-                        </div>
                     </div>
-                    <div class="plugins_text">
-                        <span>PLUGINS</span>
-                        <h1>Build your</h1>
-                        <h1 class="colortext">digital studio</h1>
-                        <p>Try industry-leading music software for</p>
-                        <p>free, pay it off over time and own it forever.</p>
-                        <div class="plugins_btn">
-                            <button class="btnplugins">TRY GEAR</button>
-                        </div>
+
+                    <div class="ellipse3 animation2">
+                        <div class="logo1"></div>
+                        <div class="logo3"></div>
+                        <div class="logo5"></div>
+                        <div class="logo6"></div>
+                        <div class="logo4"></div>
+                        <div class="logo2"></div>
+                    </div>
+                </div>
+
+                <div class="plugins_text col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                    <span>PLUGINS</span>
+                    <h1>Build your<p class="colortext">digital studio</p>
+                    </h1>
+                    <p class="pl_texts">Try industry-leading music software for
+                        free, pay it off over time and own it forever.
+                    <div class="plugins_btn">
+                        <button class="btnplugins">TRY GEAR</button>
                     </div>
                 </div>
             </div>
@@ -219,23 +228,19 @@
 
     <!-- studio -->
 
-
-    <section class="section_studio">
-        <div class="container">
+    <section class="section_studio" id="studio">
+        <div class="container" id="studio">
             <div class="row">
-                <div class="studio_container">
-                    <div class="studio_texts">
-                        <span class="head_st">STUDIO</span>
-                        <h1>Stay in<span class="colortext"> sync</span></h1>
-                        <p>Try industry-leading music software for</p>
-                        <p>free, pay it off over time and own it forever.</p>
-                        <div class="studio_btn">
-                            <button class="btnstudio">TRY STUDIO</button>
-                        </div>
-                    </div>
-                    <div class="studio_image">
-                        <img src="images/image 13.png" alt="studio">
-                    </div>
+                <div class="studio_texts col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <span>STUDIO</span>
+                    <h1>Stay in<span> sync</span></h1>
+                    <p class="stud_text">Try industry-leading music software for
+                        free, pay it off over time and own it forever.</p>
+                    <button class="btnstudio">TRY STUDIO</button>
+                </div>
+
+                <div class="studio_image col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <img src="images/image 13.png" alt="studio">
                 </div>
             </div>
         </div>
@@ -250,28 +255,33 @@
         <section class="section_creators">
             <div class="container">
                 <div class="row">
-                    <div class="creators_container">
-                        <div class="creators_text">
-                            <h1>What<span class="colortext"> creators</span></h1>
-                            <h1>are saying</h1>
-                            <h1>about Splice</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur</p>
-                            <p>adipiscing elit. Augue tellus urna, mi velit</p>
-                            <p>diam. Turpis diam amet massa id.</p>
-                            <div class="creators_btn">
-                                <button class="btncreators">TRY IT NOW</button>
-                            </div>
-                        </div>
-                        <div class="cards">
-                            <div class="earth">
-                                <img src="images/Subtract.png" alt="earth">
-                            </div>
-                            <div class="card1"></div>
-                            <div class="card2"></div>
-                            <div class="card3"></div>
-                            <div class="card4"></div>
+                    <!-- <div class="creators_container"> -->
+
+                    <div class="creators_text col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <h1>What<span> creators</span></h1>
+                        <h1>are saying</h1>
+                        <h1>about Splice</h1>
+                        <p class="crt_text">
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Augue tellus urna, mi velit
+                            diam. Turpis diam amet massa id.
+                        </p>
+                        <div class="creators_btn">
+                            <button class="btncreators">TRY IT NOW</button>
                         </div>
                     </div>
+
+                    <div class="cards col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="earth">
+                            <img src="images/Subtract.png" alt="earth">
+                        </div>
+                        <div class="card1"></div>
+                        <div class="card2"></div>
+                        <div class="card3"></div>
+                        <div class="card4"></div>
+                    </div>
+
+                    <!-- </div> -->
                 </div>
             </div>
         </section>
@@ -279,34 +289,33 @@
         <section class="good_sounds_section">
             <div class="container">
                 <div class="row">
-                    <div class="gs_container">
-                        <h1>As good as it sounds</h1>
-                        <div class="sounds_cards">
-                            <div class="s-card1">
-                                <img src="images/Volume Up.png" alt="volume">
-                                <h3>100 royalty free</h3>
-                                <p>Use sounds for anything. They’re</p>
-                                <p>cleared for commercial use.</p>
-                            </div>
-                            <div class="s-card2">
-                                <img src="images/Unlock.png" alt="unlock">
-                                <h3>No commitments</h3>
-                                <p>Cancel your subscription at any</p>
-                                <p>time, no questions asked.</p>
-                            </div>
-                            <div class="s-card3">
-                                <img src="images/Download.png" alt="download">
-                                <h3>Yours forever</h3>
-                                <p>Keep everything you download.</p>
-                                <p>Even if you cancel.</p>
-                            </div>
-                            <div class="s-card4">
-                                <img src="images/Play.png" alt="play">
-                                <h3>Individual samples</h3>
-                                <p>Preview & download individual</p>
-                                <p>samples, not just full packs.</p>
-                            </div>
-                        </div>
+                    <h1>As good as it sounds</h1>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                        <img src="images/Volume Up.png" alt="volume">
+                        <h3>100 royalty free</h3>
+                        <p>Use sounds for anything. They’re</p>
+                        <p>cleared for commercial use.</p>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                        <img src="images/Unlock.png" alt="unlock">
+                        <h3>No commitments</h3>
+                        <p>Cancel your subscription at any</p>
+                        <p>time, no questions asked.</p>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                        <img src="images/Download.png" alt="download">
+                        <h3>Yours forever</h3>
+                        <p>Keep everything you download.</p>
+                        <p>Even if you cancel.</p>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                        <img src="images/Play.png" alt="play">
+                        <h3>Individual samples</h3>
+                        <p>Preview & download individual</p>
+                        <p>samples, not just full packs.</p>
                     </div>
                 </div>
             </div>
@@ -314,17 +323,12 @@
     </div>
 
 
-
-
-
-
-
     <!-- job at splice -->
 
     <section class="section_jas">
         <div class="container">
             <div class="row">
-                <div class="jas_container">
+                <div class="jas_container col-12">
                     <h2>Come change the way</h2>
                     <h2>people make music</h2>
                     <div class="button_jas">
@@ -339,95 +343,95 @@
 
     <!-- footer -->
 
-    <!-- <footer class="footer"> -->
-    <div class="container">
-        <div class="row">
-            <!--  <div class="footer_container"> -->
-            <!-- <div class="top_footer"> -->
-            <div class="col-sm-4 col-lg-3">
-                <img src="images/Frame.png" alt="logo2">
-                <p>2021 Splice.com All Rights Reserved</p>
-            </div>
-            <div class="col-sm-8 col-lg-2">
-                <h4>STUDIO</h4>
-                <p>Features</p>
-                <p>About Splice Studio</p>
-                <p>Managing Your Production Library</p>
-                <p>Collaborating with Baewatch</p>
-            </div>
-            <div class="col-sm-4 col-lg-2">
-                <h4>COMMUNITY</h4>
-                <p>Ableton Live Projects</p>
-                <p>FL Studio Projects</p>
-                <p>Logic Pro X Projects</p>
-                <p>Garageband Projects</p>
-                <p>Remix Contests</p>
-                <p>Tiestos Secrets</p>
-            </div>
-            <div class="col-sm-4 col-lg-2">
-                <h4>SOUNDS</h4>
-                <p>Features</p>
-                <p>Catalog</p>
-                <p>How Jauz Uses Sounds</p>
-                <p>deadmau5s Chimaera</p>
-                <p>KSHMR Vol. 2</p>
-            </div>
-            <div class="col-sm-4 col-lg-2">
-                <h4>FIND US ON SOCIAL</h4>
-                <div class="icons">
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-youtube"></i>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!--  <div class="footer_container"> -->
+                <!-- <div class="top_footer"> -->
+                <div class="col-sm-4 col-lg-3">
+                    <img src="images/Frame.png" alt="logo2">
+                    <p>2021 Splice.com All Rights Reserved</p>
                 </div>
-                <div class="f_text1">
-                    <span>Terms of Use</span>
-                    <span>Privacy Policy</span>
-                    <span>Jobs</span>
+                <div class="col-sm-8 col-lg-2">
+                    <h4>STUDIO</h4>
+                    <p>Features</p>
+                    <p>About Splice Studio</p>
+                    <p>Managing Your Production Library</p>
+                    <p>Collaborating with Baewatch</p>
                 </div>
-                <div class="f_text2">
-                    <span>Contact</span>
-                    <span>Help</span>
+                <div class="col-sm-4 col-lg-2">
+                    <h4>COMMUNITY</h4>
+                    <p>Ableton Live Projects</p>
+                    <p>FL Studio Projects</p>
+                    <p>Logic Pro X Projects</p>
+                    <p>Garageband Projects</p>
+                    <p>Remix Contests</p>
+                    <p>Tiestos Secrets</p>
                 </div>
+                <div class="col-sm-4 col-lg-2">
+                    <h4>SOUNDS</h4>
+                    <p>Features</p>
+                    <p>Catalog</p>
+                    <p>How Jauz Uses Sounds</p>
+                    <p>deadmau5s Chimaera</p>
+                    <p>KSHMR Vol. 2</p>
+                </div>
+                <div class="col-sm-4 col-lg-2">
+                    <h4>FIND US ON SOCIAL</h4>
+                    <div class="icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                    <div class="f_text1">
+                        <span>Terms of Use</span>
+                        <span>Privacy Policy</span>
+                        <span>Jobs</span>
+                    </div>
+                    <div class="f_text2">
+                        <span>Contact</span>
+                        <span>Help</span>
+                    </div>
+                </div>
+                <!-- </div> -->
             </div>
-            <!-- </div> -->
         </div>
-    </div>
 
-    <div class="container">
-        <div class="row">
-            <!--   <div class="bottom_footer"> -->
-            <div class="col-sm-4">
-                <h4>PLUGINS</h4>
-                <p>Top VSTs</p>
-                <p>Serum</p>
-                <p>Rent to Own</p>
-                <p>Free Plugins</p>
-                <p>Top Manufacturers</p>
+        <div class="container">
+            <div class="row">
+                <!--   <div class="bottom_footer"> -->
+                <div class="col-sm-4">
+                    <h4>PLUGINS</h4>
+                    <p>Top VSTs</p>
+                    <p>Serum</p>
+                    <p>Rent to Own</p>
+                    <p>Free Plugins</p>
+                    <p>Top Manufacturers</p>
+                </div>
+                <div class="col-sm-4">
+                    <h4>BEATMAKER</h4>
+                    <p>Create Your Own Beat</p>
+                    <p>Wakapella</p>
+                    <p>Just Blaze</p>
+                </div>
+                <div class="col-sm-4">
+                    <h4>BLOG</h4>
+                    <p>Latest Posts</p>
+                    <p>Using Soundtoys Decapitator</p>
+                    <p>Mastering 101</p>
+                    <p>Producing Future Beats</p>
+                    <p>Belonging at Splice</p>
+                </div>
+                <!-- </div> -->
+                <!-- </div> -->
+                <!--   </div> -->
             </div>
-            <div class="col-sm-4">
-                <h4>BEATMAKER</h4>
-                <p>Create Your Own Beat</p>
-                <p>Wakapella</p>
-                <p>Just Blaze</p>
-            </div>
-            <div class="col-sm-4">
-                <h4>BLOG</h4>
-                <p>Latest Posts</p>
-                <p>Using Soundtoys Decapitator</p>
-                <p>Mastering 101</p>
-                <p>Producing Future Beats</p>
-                <p>Belonging at Splice</p>
-            </div>
-            <!-- </div> -->
-            <!-- </div> -->
-            <!--   </div> -->
-        </div>
-        </footer>
+    </footer>
 
 
-
-        <script src="js/main.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/login_signup.js"></script>
 </body>
 
 </html>
