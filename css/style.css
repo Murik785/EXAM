@@ -14,14 +14,14 @@
 
 .animation{
     animation-name: logos;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 
 .animation2{
     animation-name: logos2;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -45,6 +45,7 @@ a {
     text-decoration: none;
     color: #272727;
     position: relative;
+    line-height: 12px
 }
 
 a::after {
@@ -211,9 +212,7 @@ a:hover:after {
 
 
 /* sounds */
-/* .section_sounds {
 
-} */
 
 .sounds_text {
     text-align: center;
@@ -482,7 +481,7 @@ background-image: url('../images//Vector\ 8.png');
     color: #ffffff;
     cursor: pointer;
     border-style: none !important;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 
@@ -548,22 +547,26 @@ background-image: url('../images//Vector\ 8.png');
     background-image: url("../images/Mask\ Group.png"), linear-gradient(#0c0c0c 1590px, transparent 1500px);
     background-repeat: no-repeat;
     position: relative;
-    z-index: -100;
+    /* z-index: -100; */
     margin-top: 100px;
 }
 
 .creators_text {
     z-index: 100;
+    display: grid;
+    gap: 20px;
 }
 
-.creators_text h1 {
+.crt_head{
+    height: 156px;
+    width: 60%;
     font-size: 48px;
-    line-height: 108%;
+    line-height: 52px;
+    color: #FFFFFF;
     font-weight: 900;
-    color: #ffffff;
 }
 
-.creators_text h1 > span{
+.crt_head > span{
     color: rgba(0, 51, 255, 1);
 }
 
@@ -586,7 +589,7 @@ background-image: url('../images//Vector\ 8.png');
     color: #ffffff;
     cursor: pointer;
     border-style: none !important;
-    z-index: 100;
+    z-index: 1000;
     position: absolute;
     margin-right: 20px;
 }
@@ -666,13 +669,6 @@ background-image: url('../images//Vector\ 8.png');
     margin-bottom: 120px;
 }
 
-/* .sounds_cards {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 150px;
-    gap: 120px;
-} */
-
 .good_sounds_section img {
     width: 40px;
     height: 40px;
@@ -686,11 +682,14 @@ background-image: url('../images//Vector\ 8.png');
     margin-top: 20px;
 }
 
-.good_sounds_section p {
+.gs_text {
+    height: 54px;
+    width: 78%;
     font-size: 16px;
     line-height: 171%;
     color: #958a8a;
 }
+
 
 /* JOB AT SPLICE */
 
@@ -712,6 +711,8 @@ background-image: url('../images//Vector\ 8.png');
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 100;
+    margin-top: -40px;
 }
 
 .jas_container h2 {
@@ -767,6 +768,13 @@ background-image: url('../images//Vector\ 8.png');
 .footer p:hover{
     transform: scaleY(1.2);
     color: #f09634;
+}
+
+.col-sm-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
 }
 
 

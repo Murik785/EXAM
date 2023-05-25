@@ -63,7 +63,7 @@ button:hover {
     overflow: auto;
     padding-top: 50px;
     background: rgb(30, 178, 124);
-    background: linear-gradient(90deg, rgba(30, 178, 124, 1) 0%, rgba(245, 86, 75, 1) 92%);
+    background: linear-gradient(90deg, #F4BC38 0%, #C65447 92%);
 }
 
 a.link {
@@ -82,7 +82,7 @@ a.link:hover {
     margin: 5% auto 15% auto;
     border: 1px solid #000;
     border-radius: 5px;
-    width: 80%;
+    width: 40%;
 }
 
 
