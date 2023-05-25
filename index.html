@@ -11,9 +11,9 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="icons/fontawesome-free-6.3.0-web/css/all.css">
     <!-- App css -->
-    <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="icon" href="images/Frame.png">
+    <link rel="stylesheet" href="css/app.css">
     <title>Splice-Landing-Page</title>
 </head>
 
@@ -37,10 +37,9 @@
 
                     <ul class="nav_container_2">
                         <div class="login cont2_size" onclick="document.getElementById('id00').style.display='block'"
-                            style="width:auto;">LOG IN</div>
+                            style="width:auto;">LOGIN</div>
                         <button class="headt_btn cont2_btn"
-                            onclick="document.getElementById('id01').style.display='block'" style="width:auto;">SIGN
-                            UP
+                            onclick="document.getElementById('id01').style.display='block'" style="width:auto;">SIGNUP
                         </button>
                     </ul>
 
@@ -50,13 +49,13 @@
                         <label for="active" class="close"></label>
                         <div class="wrapper">
                             <ul>
-                                <li><a href="#">STUDIO</a></li>
-                                <li><a href="#">COMMUNITY</a></li>
-                                <li><a href="#">SOUNDS</a></li>
-                                <li><a href="#">PLUGINS</a></li>
-                                <li><a href="#">BLOG</a></li>
-                                <li><a href="#">LOG IN</a></li>
-                                <li><a href="#">SIGN UP</a></li>
+                                <li><a href="#studio">STUDIO</a></li>
+                                <li><a href="#community">COMMUNITY</a></li>
+                                <li><a href="#sounds">SOUNDS</a></li>
+                                <li><a href="#plugins">PLUGINS</a></li>
+                                <li><a href="#blog">BLOG</a></li>
+                                <li><a href="#">LOGIN</a></li>
+                                <li><a href="#">SIGNUP</a></li>
                             </ul>
                         </div>
                     </div>
@@ -144,7 +143,7 @@
 
 
     <!-- featured in -->
-    <section class="section_featured_in">
+    <section class="section_featured_in wow fadeInLeftBig">
         <div class="container">
             <div class="row">
                 <span>FEATURED IN</span>
@@ -163,7 +162,7 @@
 
     <!-- sounds -->
 
-    <section class="section_sounds" id="sounds">
+    <section class="section_sounds wow fadeInRight" id="sounds">
         <div class="container">
             <div class="row">
                 <div class="sounds_text col-12">
@@ -190,7 +189,7 @@
 
     <!-- plugins -->
 
-    <section class="section_plugins">
+    <section class="section_pluginswow fadeInLeftBig">
         <div class="container" id="plugins">
             <div class="row">
                 <div class="plugins_logos col-xs-12 col-sm-12 col-md-12 col-lg-6">
@@ -198,8 +197,9 @@
                         <div class="logo7"></div>
                         <div class="logo9"></div>
                         <div class="logo8"></div>
-                        <div class="ellipse2"></div>
                     </div>
+
+                    <div class="ellipse2"></div>
 
                     <div class="ellipse3 animation2">
                         <div class="logo1"></div>
@@ -228,7 +228,7 @@
 
     <!-- studio -->
 
-    <section class="section_studio" id="studio">
+    <section class="section_studio wow fadeInRightBig" id="studio">
         <div class="container" id="studio">
             <div class="row">
                 <div class="studio_texts col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -343,7 +343,7 @@
 
     <!-- footer -->
 
-    <footer class="footer">
+    <footer class="footer" id="blog">
         <div class="container">
             <div class="row">
                 <!--  <div class="footer_container"> -->
@@ -379,10 +379,10 @@
                 <div class="col-sm-4 col-lg-2">
                     <h4>FIND US ON SOCIAL</h4>
                     <div class="icons">
-                        <i class="fa-brands fa-facebook"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-youtube"></i>
+                        <a href="facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="youtube.com"><i class="fa-brands fa-youtube"></i></a>
                     </div>
                     <div class="f_text1">
                         <span>Terms of Use</span>
@@ -432,6 +432,7 @@
 
     <script src="js/wow.js"></script>
     <script src="js/login_signup.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

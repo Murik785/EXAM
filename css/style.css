@@ -74,6 +74,10 @@ a:hover:after {
     height: 150px;
 }
 
+.nav_wrapper{
+    cursor: pointer;
+}
+
 .nav_container_1,
 .nav_container_2 {
     display: flex;
@@ -90,6 +94,12 @@ a:hover:after {
     position: absolute;
     z-index: 7;
     top: 210px;
+    left: 120px;
+}
+
+.img-fluid{
+    width: 500px;
+    height: 120px;
 }
 
 .st_text{
@@ -105,6 +115,7 @@ a:hover:after {
     width: 50%;
 }
 
+
 .btn_sign {
     width: 126px;
     height: 37px;
@@ -114,6 +125,8 @@ a:hover:after {
     font-size: 12px;
     line-height: 14px;
     color: #FFFFFF;
+    position: absolute;
+    margin-bottom: 20px;
     /* margin-bottom: 50px; */
 }
 
@@ -272,7 +285,7 @@ background-image: url('../images//Vector\ 8.png');
     background-size: cover;
     z-index: -100;
     margin-top: -250px;
-    padding: 700px 0 200px 0;
+    padding: 650px 0 200px 250px;
 }
 
 .pl_texts{
@@ -292,9 +305,11 @@ background-image: url('../images//Vector\ 8.png');
     height: 200px;
     background: #f4f6f9;
     border-radius: 50%;
-    left: 120px;
+    top: 50px;
+    left: 125px;
     position: absolute;
-    z-index: 100;
+    /* border: 1px solid black; */
+    z-index: 10;
 }
 
 .ellipse1 .logo7 {
@@ -306,8 +321,8 @@ background-image: url('../images//Vector\ 8.png');
     background-repeat: no-repeat;
     filter: drop-shadow(0px 10px 20px rgba(41, 41, 42, 0.07));
     position: absolute;
-    left: 30%;
-    bottom: 75%;
+    left: 60px;
+    top: -32px;
 }
 
 .ellipse1 .logo9 {
@@ -319,8 +334,8 @@ background-image: url('../images//Vector\ 8.png');
     background-repeat: no-repeat;
     filter: drop-shadow(0px 10px 20px rgba(41, 41, 42, 0.07));
     position: absolute;
-    left: 71%;
-    bottom: 0%;
+    left: 145px;
+    bottom: 0px;
 }
 
 .ellipse1 .logo8 {
@@ -332,8 +347,8 @@ background-image: url('../images//Vector\ 8.png');
     background-repeat: no-repeat;
     filter: drop-shadow(0px 10px 20px rgba(41, 41, 42, 0.07));
     position: absolute;
-    top: 58%;
-    right: 68%;
+    top: 115px;
+    left: -25px;
 }
 
 .ellipse2 {
@@ -341,9 +356,10 @@ background-image: url('../images//Vector\ 8.png');
     height: 340px;
     background: radial-gradient(50% 50% at 50% 50%, #816fff 0%, rgba(129, 64, 155, 0) 100%);
     border-radius: 50%;
-    /* bottom: -270px; */
-    /* left: 50px; */
+    margin-bottom: -250px;
+    margin-left: 50px;
     position: absolute;
+    /* z-index: -100; */
 }
 
 .ellipse3 {
@@ -352,8 +368,8 @@ background-image: url('../images//Vector\ 8.png');
     border: 3px solid rgba(126, 112, 255, 0.28);
     border-radius: 50%;
     position: absolute;
-    top: -141px;
-    left: -21px;
+    top: -90px;
+    left: -15px;
 }
 
 .ellipse3 .logo1 {
@@ -437,7 +453,7 @@ background-image: url('../images//Vector\ 8.png');
 .plugins_text {
     text-align: left;
     /* position: relative; */
-    left: 200px;
+    /* left: 200px; */
 }
 
 .plugins_text span {
@@ -466,6 +482,7 @@ background-image: url('../images//Vector\ 8.png');
     color: #ffffff;
     cursor: pointer;
     border-style: none !important;
+    margin-top: 50px;
 }
 
 

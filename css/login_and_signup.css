@@ -55,7 +55,7 @@ button:hover {
 .modal {
     display: none; 
     position: fixed;
-    z-index: 1;
+    z-index: 1000;
     left: 0;
     top: 0;
     width: 100%;
@@ -98,7 +98,7 @@ hr {
     top: 15px;
     font-size: 40px;
     font-weight: bold;
-    color: #f1f1f1;
+    color: #000000;
 }
 
 .close:hover,
@@ -113,3 +113,4 @@ hr {
     clear: both;
     display: table;
 }
+
