@@ -30,10 +30,10 @@
 /* start section */
 .section_start {
     /* min-height: 635px; */
-    height: 100vh;
+    height: 750px;
     background-image: url("../images/Rectangle\ 10.png"), linear-gradient(#f4f6f9 555px, transparent 555px);
     background-repeat: no-repeat;
-    background-position: center;
+    /* background-position: center; */
 }
 
 ul,
@@ -114,6 +114,7 @@ a:hover:after {
 
 .start_main_img img{
     width: 50%;
+    /* height: 600px; */
 }
 
 
@@ -180,33 +181,31 @@ a:hover:after {
     margin-bottom: 30px;
 }
 
-.featin_img {
+/* .featin_img {
     height: 54px;
     width: 100%;
     position: relative;
-}
+} */
 
 
-.featin_img img {
-    margin: 0 45px;
-    width: 148px;
-    height: 64px;
+.section_featured_in img {
+    margin: 0 auto !important;
     transition: transition 0.2s;
     cursor: pointer;
     filter: drop-shadow(0px 0px 0px transparent);
 }
 
-.featin_img img:hover {
+.section_featured_in img:hover {
     filter: drop-shadow(0px 0px 0px #f09634);
     transform: scale(1.3);
 
 }
 
-.featin_img img:first-child {
+.section_featured_in img:first-child {
     margin: 0;
 }
 
-.featin_img img:last-child {
+.section_featured_in img:last-child {
     margin: 0;
 }
 
@@ -236,15 +235,10 @@ a:hover:after {
 }
 
 .sounds_text .s_text {
-    width: 38%;
-    height: 53px;
     font-size: 18px;
     line-height: 31px;
     text-align: center;
     color: #958a8a;
-    margin: 18px 0 34px 0 !important;
-    position: relative;
-    left: 400px;
 }
 
 .btnsounds {
@@ -283,20 +277,17 @@ background-image: url('../images//Vector\ 8.png');
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -100;
-    margin-top: -250px;
-    padding: 700px 0 200px 250px;
 }
 
 .pl_texts{
-    width: 54%;
-    height: 62px;
     font-size: 18px;
     line-height: 31px;
     color: #958A8A;
 }
 
 .plugins_logos {
-    position: relative;
+height: 500px;
+position: relative;
 }
 
 .ellipse1 {
@@ -489,7 +480,7 @@ background-image: url('../images//Vector\ 8.png');
 /* studio */
 
 .section_studio {
-    padding: 150px 0 00px 0;
+    padding: 150px 0;
 }
 
 /* .studio_texts {
@@ -541,25 +532,21 @@ background-image: url('../images//Vector\ 8.png');
 /* creators and sounds */
 
 .creators_and_sounds {
-    min-height: 100vh;
-    padding: 200px 0;
     background-position: center;
     background-image: url("../images/Mask\ Group.png"), linear-gradient(#0c0c0c 1590px, transparent 1500px);
     background-repeat: no-repeat;
     position: relative;
+    padding: 50px 0 100px 0;
     /* z-index: -100; */
-    margin-top: 100px;
 }
 
 .creators_text {
+    height: 450px;
     z-index: 100;
-    display: grid;
     gap: 20px;
 }
 
 .crt_head{
-    height: 156px;
-    width: 60%;
     font-size: 48px;
     line-height: 52px;
     color: #FFFFFF;
@@ -571,8 +558,8 @@ background-image: url('../images//Vector\ 8.png');
 }
 
 .crt_text{
-    width: 55%;
-    height: 93px;
+    width: 80%;
+    height: 100px;
     font-size: 18px;
     line-height: 31px;
     color: #958a8a;
@@ -592,6 +579,10 @@ background-image: url('../images//Vector\ 8.png');
     z-index: 1000;
     position: absolute;
     margin-right: 20px;
+}
+
+.cards {
+    height: 500px;
 }
 
 .cards img {
@@ -656,9 +647,9 @@ background-image: url('../images//Vector\ 8.png');
 
 } */
 
-.good_sounds_section {
+/* .good_sounds_section {
     margin-top: 20%;
-}
+} */
 
 .good_sounds_section h1 {
     text-align: center;
@@ -694,10 +685,7 @@ background-image: url('../images//Vector\ 8.png');
 /* JOB AT SPLICE */
 
 .section_jas {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
+margin-top: 120px;
 }
 
 .jas_container {
@@ -706,13 +694,11 @@ background-image: url('../images//Vector\ 8.png');
     padding: 43px 0;
     background: linear-gradient(95.31deg, #a659ff -28.73%, #7178ff 23.23%, #2148ff 62.74%, #ff3517 111.77%);
     border-radius: 22px;
-    margin-bottom: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     z-index: 100;
-    margin-top: -40px;
 }
 
 .jas_container h2 {
@@ -743,7 +729,7 @@ background-image: url('../images//Vector\ 8.png');
 
 .footer {
     position: relative;
-    bottom: 100px;
+    padding: 100px 0;
 }
 
 .footer h4 {
