@@ -1,0 +1,132 @@
+@media screen and (max-width: 767px) {
+    .nav_container_1 {
+        display: none;
+    }
+
+    .plugins_logos {
+        display: none;
+    }
+
+    .img_persons {
+        display: none;
+    }
+
+    .start_main_container {
+        left: 0;
+        text-align: center;
+    }
+
+    .btn_sign {
+        width: 100%;
+        position: unset;
+    }
+
+    .st_text {
+        width: unset;
+        height: unset;
+        margin: unset;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .section_start {
+        background-image: none;
+        height: 500px;
+    }
+
+    .mobile_button {
+        display: block;
+    }
+
+    .btnsounds {
+        width: 100%;
+    }
+
+    .sounds_image {
+        height: 600px;
+    }
+
+    .sounds_image img {
+        width: 100%;
+    }
+
+    .plugins_logos {
+        margin-top: 60px;
+    }
+
+    .plugins_text {
+        text-align: center;
+        /* position: relative; */
+        /* left: 200px; */
+    }
+
+    .studio_texts {
+        text-align: center;
+    }
+
+    .stud_text {
+        height: unset;
+        width: unset;
+    }
+
+    .plugins_btn .btnplugins {
+        width: 100%;
+    }
+
+    .btnstudio {
+        width: 100%;
+    }
+
+    .jas_container{
+        margin-top: 5%;
+        width: 500px;
+        height: 150px;
+    }
+
+    .jas_container h2{
+        font-size: 22px;
+        /* margin-top: 10px; */
+    }
+    
+    .button_jas .jasbtn{
+        width: 132px;
+        height: 35px;
+        font-size: 12px;
+    }
+
+    .section_featured_in div > .col-xs-12,.col-sm-12,.col-md-6,.col-lg-2{
+        text-align: center;
+    }
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .img-fluid{
+        display: none;
+    }
+    .cards {
+        display: none;
+    }
+
+    .creators_text {
+        text-align: center;
+    }
+
+    .crt_text {
+        width: unset;
+        height: unset;
+    }
+
+    .creators_btn .btncreators {
+        position: unset;
+        width: 100%;
+    }
+
+    .creators_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
