@@ -76,11 +76,35 @@
     .btnstudio {
         width: 100%;
     }
+
+    .jas_container{
+        margin-top: 5%;
+        width: 500px;
+        height: 150px;
+    }
+
+    .jas_container h2{
+        font-size: 22px;
+        /* margin-top: 10px; */
+    }
+    
+    .button_jas .jasbtn{
+        width: 132px;
+        height: 35px;
+        font-size: 12px;
+    }
+
+    .section_featured_in div > .col-xs-12,.col-sm-12,.col-md-6,.col-lg-2{
+        text-align: center;
+    }
 }
 
 
 
 @media screen and (max-width: 992px) {
+    .img-fluid{
+        display: none;
+    }
     .cards {
         display: none;
     }
