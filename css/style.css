@@ -12,20 +12,19 @@
     box-sizing: border-box;
 }
 
-.animation{
+.animation {
     animation-name: logos;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 
-.animation2{
+.animation2 {
     animation-name: logos2;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
-
 
 /* start section */
 .section_start {
@@ -45,7 +44,7 @@ a {
     text-decoration: none;
     color: #272727;
     position: relative;
-    line-height: 12px
+    line-height: 12px;
 }
 
 a::after {
@@ -75,7 +74,7 @@ a:hover:after {
     height: 150px;
 }
 
-.nav_wrapper{
+.nav_wrapper {
     cursor: pointer;
 }
 
@@ -98,12 +97,12 @@ a:hover:after {
     left: 120px;
 }
 
-.img-fluid{
+.img-fluid {
     width: 500px;
     height: 120px;
 }
 
-.st_text{
+.st_text {
     width: 58%;
     height: 62px;
     margin: 24px 0 34px 0;
@@ -112,11 +111,10 @@ a:hover:after {
     color: #595959;
 }
 
-.start_main_img img{
+.start_main_img img {
     width: 50%;
     /* height: 600px; */
 }
-
 
 .btn_sign {
     width: 126px;
@@ -126,7 +124,7 @@ a:hover:after {
     border-style: none !important;
     font-size: 12px;
     line-height: 14px;
-    color: #FFFFFF;
+    color: #ffffff;
     position: absolute;
     margin-bottom: 20px;
     /* margin-bottom: 50px; */
@@ -167,7 +165,6 @@ a:hover:after {
 }
 
 
-
 /* featured in section (1)*/
 .section_featured_in {
     margin: 75px 0 127px 0;
@@ -181,7 +178,6 @@ a:hover:after {
     margin-bottom: 30px;
 }
 
-
 .section_featured_in img {
     margin: 0 auto !important;
     transition: transition 0.2s;
@@ -192,7 +188,6 @@ a:hover:after {
 .section_featured_in img:hover {
     filter: drop-shadow(0px 0px 0px #f09634);
     transform: scale(1.3);
-
 }
 
 .section_featured_in img:first-child {
@@ -204,9 +199,7 @@ a:hover:after {
 }
 
 
-
 /* sounds */
-
 .sounds_text {
     text-align: center;
 }
@@ -261,7 +254,7 @@ a:hover:after {
 }
 
 .line_backround {
-background-image: url('../images//Vector\ 8.png');
+    background-image: url("../images//Vector\ 8.png");
 }
 
 
@@ -273,10 +266,10 @@ background-image: url('../images//Vector\ 8.png');
     z-index: -100;
 }
 
-.pl_texts{
+.pl_texts {
     font-size: 18px;
     line-height: 31px;
-    color: #958A8A;
+    color: #958a8a;
 }
 
 .plugins_logos {
@@ -454,7 +447,7 @@ background-image: url('../images//Vector\ 8.png');
     font-weight: 900;
 }
 
-.plugins_text h1 > p{
+.plugins_text h1 > p {
     color: rgba(0, 51, 255, 1);
 }
 
@@ -474,7 +467,6 @@ background-image: url('../images//Vector\ 8.png');
 
 
 /* studio */
-
 .section_studio {
     padding: 150px 0;
 }
@@ -492,11 +484,9 @@ background-image: url('../images//Vector\ 8.png');
 }
 
 .stud_text {
-    width: 54%;
-    height: 62px;
     font-size: 18px;
     line-height: 31px;
-    color: #958A8A;
+    color: #958a8a;
 }
 
 .studio_texts h1 span {
@@ -539,18 +529,18 @@ background-image: url('../images//Vector\ 8.png');
     margin-top: 150px;
 }
 
-.crt_head{
+.crt_head {
     font-size: 48px;
     line-height: 52px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-weight: 900;
 }
 
-.crt_head > span{
+.crt_head > span {
     color: rgba(0, 51, 255, 1);
 }
 
-.crt_text{
+.crt_text {
     width: 80%;
     height: 100px;
     font-size: 18px;
@@ -633,7 +623,6 @@ background-image: url('../images//Vector\ 8.png');
     z-index: 100;
 }
 
-
 .good_sounds_section h1 {
     text-align: center;
     font-size: 38px;
@@ -657,12 +646,13 @@ background-image: url('../images//Vector\ 8.png');
 }
 
 .gs_text {
-    height: 54px;
-    width: 78%;
+    /* height: 54px;
+    width: 78%; */
     font-size: 16px;
     line-height: 171%;
     color: #958a8a;
 }
+
 
 
 /* JOB AT SPLICE */
@@ -705,16 +695,18 @@ background-image: url('../images//Vector\ 8.png');
     cursor: pointer;
 }
 
-
-
 /* footer */
-
 
 .footer {
     position: relative;
     padding: 100px 0;
     margin-top: 100px;
+}
 
+.footer span{
+    font-size: 10px;
+    line-height: 14px;
+    color: #606060;
 }
 
 .footer h4 {
@@ -731,48 +723,41 @@ background-image: url('../images//Vector\ 8.png');
     transform: transition 0.2s;
 }
 
-.footer p:hover{
+.footer p:hover {
     transition: scaleY(1.2);
     color: #f09634;
 }
 
-#foot1{
+#foot1 {
     margin-left: 8%;
 }
 
-#foot2{
+#foot2 {
     margin-right: -2%;
 }
 
-#foot3{
+#foot3 {
     margin-right: -2%;
 }
 
-#foot4{
+#foot4 {
     margin-right: -2%;
 }
 
-#foot6{
+#foot6 {
     margin-left: 31%;
     margin-top: 5%;
 }
 
-#foot7{
+#foot7 {
     margin-left: -17%;
     margin-top: 5%;
 }
 
-#foot8{
+#foot8 {
     margin-left: 64%;
     margin-top: -15%;
 }
-
-
-
-
-
-
-
 
 button {
     transition: transform 0.3s;
@@ -782,18 +767,6 @@ button {
 button:hover {
     transform: scale(1.2);
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 @keyframes logos {
     0% {
