@@ -165,6 +165,7 @@ a:hover:after {
 }
 
 
+
 /* featured in section (1)*/
 .section_featured_in {
     margin: 75px 0 127px 0;
@@ -182,11 +183,12 @@ a:hover:after {
     margin: 0 auto !important;
     transition: transition 0.2s;
     cursor: pointer;
-    filter: drop-shadow(0px 0px 0px transparent);
+    filter: grayscale(0.7);
+    transition: all 0.4s ease-in-out;
 }
 
 .section_featured_in img:hover {
-    filter: drop-shadow(0px 0px 0px #f09634);
+    /* filter: drop-shadow(0px 0px 0px #f09634); */
     transform: scale(1.3);
 }
 
