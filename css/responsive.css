@@ -30,10 +30,6 @@
         display: none;
     }
 
-    .creators_text {
-        text-align: center;
-    }
-
     .st_text {
         margin-left: 20%;
     }
@@ -82,6 +78,7 @@
         text-align: center;
         width: unset;
         height: unset;
+        z-index: -100;
     }
 
     .crt_text {

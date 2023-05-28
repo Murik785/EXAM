@@ -168,7 +168,13 @@ a:hover:after {
     border-style: none !important;
 }
 
-
+#menu-icon{
+    font-size: 12px;
+    color: #f4f6f9;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}
 
 /* featured in section (1)*/
 .section_featured_in {
@@ -540,10 +546,12 @@ a:hover:after {
     line-height: 52px;
     color: #ffffff;
     font-weight: 900;
+    z-index: -1;
 }
 
 .crt_head > span {
     color: rgba(0, 51, 255, 1);
+    z-index: -1;
 }
 
 .crt_text {
@@ -552,6 +560,7 @@ a:hover:after {
     font-size: 18px;
     line-height: 31px;
     color: #958a8a;
+    z-index: -1;
 }
 
 .creators_btn .btncreators {
