@@ -86,6 +86,10 @@ a:hover:after {
     align-items: center;
 }
 
+.nav_container_1{
+    margin-right: 22%;
+}
+
 .mobile_button {
     display: none;
 }
