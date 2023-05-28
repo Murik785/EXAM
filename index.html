@@ -36,14 +36,16 @@
                     </ul>
 
                     <ul class="nav_container_2">
-                        <div class="login cont2_size" onclick="document.getElementById('id00').style.display='block'"
-                            style="width:auto;">LOGIN</div>
-                        <button class="headt_btn cont2_btn"
+                        <div id="login" class="cont2_size"
+                            onclick="document.getElementById('id00').style.display='block'" style="width:auto;">LOGIN
+                        </div>
+                        <button id="signup" class="headt_btn cont2_btn"
                             onclick="document.getElementById('id01').style.display='block'" style="width:auto;">SIGNUP
                         </button>
                     </ul>
 
                     <div class="mobile_button">
+
                         <input type="checkbox" id="active">
                         <label for="active" class="menu-btn"><span></span></label>
                         <label for="active" class="close"></label>
@@ -54,11 +56,8 @@
                                 <li><a href="#sounds">SOUNDS</a></li>
                                 <li><a href="#plugins">PLUGINS</a></li>
                                 <li><a href="#blog">BLOG</a></li>
-                                <!-- <li><a href="#">LOGIN</a></li> -->
-                                <div class="login cont2_size"
-                                    onclick="document.getElementById('id00').style.display='block'" style="width:auto;">
-                                    LOGIN</div>
-                                <li><a href="#">SIGNUP</a></li>
+                                <li><a href="#login">LOGIN</a></li>
+                                <li><a href="#signup">SIGNUP</a></li>
                             </ul>
                         </div>
                     </div>
@@ -354,7 +353,7 @@
                     <section class="section_jas">
                         <div class="jas_container wow zoomIn col-12">
                             <h2>Come change the way
-                            people make music</h2>
+                                people make music</h2>
                             <div class="button_jas">
                                 <button class="jasbtn">JOB AT SPLICE</button>
                             </div>
