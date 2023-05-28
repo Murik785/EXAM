@@ -1,0 +1,532 @@
+@media screen and (max-width: 992px) {
+    .img_persons {
+        display: none;
+    }
+
+    .start_main_container {
+        left: 0;
+        text-align: center;
+    }
+
+    .section_start {
+        background-image: none;
+        /* height: 300px; */
+    }
+
+    .nav_container_1 {
+        display: none;
+    }
+
+    .mobile_button {
+        display: block;
+    }
+
+    .btn_sign {
+        width: 80%;
+        position: unset;
+    }
+
+    .cards {
+        display: none;
+    }
+
+    .creators_text {
+        text-align: center;
+    }
+
+    .st_text {
+        margin-left: 20%;
+    }
+
+    .section_featured_in {
+        text-align: center;
+    }
+
+    .section_plugins {
+        background-image: none;
+    }
+
+    .plugins_logos {
+        display: none;
+    }
+
+    .plugins_text {
+        left: 0;
+        text-align: center;
+    }
+
+    .plugins_btn .btnplugins {
+        width: 100%;
+        position: unset;
+    }
+
+    .studio_image img {
+        width: 100%;
+    }
+
+    .studio_texts {
+        text-align: center;
+    }
+
+    .stud_text {
+        height: unset;
+        width: unset;
+    }
+
+    .btnstudio {
+        width: 100%;
+        position: unset;
+    }
+
+    .creators_text {
+        text-align: center;
+        width: unset;
+        height: unset;
+    }
+
+    .crt_text {
+        width: unset;
+        height: unset;
+    }
+
+    .creators_btn .btncreators {
+        margin-bottom: 25%;
+        position: unset;
+        width: 100%;
+    }
+
+    .btnsounds {
+        width: 100%;
+        position: unset;
+    }
+
+    .good_sounds_section > .col-xs-12,
+    .col-sm-12,
+    .col-md-6,
+    .col-lg-3 {
+        text-align: center;
+        left: 0;
+    }
+
+    .jas_container {
+        margin-top: 7%;
+        width: 450px;
+        height: 100px;
+        margin-left: 12%;
+    }
+
+    .jas_container h2 {
+        font-size: 16px;
+        margin-top: 2%;
+    }
+
+    .button_jas .jasbtn {
+        width: 120px;
+        height: 30px;
+        margin-top: -5%;
+        font-size: 10px;
+    }
+
+    .footer {
+        margin-left: 10%;
+    }
+
+    .footer span {
+        font-size: 8px;
+    }
+    .footer p {
+        font-size: 8px;
+    }
+
+    .footer h4 {
+        font-size: 10px;
+    }
+
+    #foot1 {
+        margin-top: -12%;
+        margin-left: -14%;
+    }
+
+    #foot2 {
+        margin-top: -12%;
+        margin-left: -4%;
+    }
+
+    #foot3 {
+        margin-top: -19%;
+        margin-left: 32%;
+    }
+
+    #foot4 {
+        margin-top: -26.5%;
+        margin-left: 49%;
+    }
+
+    #foot5 {
+        margin-top: -26%;
+        margin-left: 66%;
+    }
+
+    #foot6 {
+        margin-top: 0%;
+        margin-left: 7%;
+    }
+
+    #foot7 {
+        margin-top: 0%;
+        margin-left: -13%;
+    }
+
+    #foot8 {
+        margin-top: -28%;
+        margin-left: 48%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .nav_wrapper .logo > img {
+        margin-left: -60%;
+    }
+    .nav_container_1 {
+        display: none;
+    }
+
+    .plugins_logos {
+        display: none;
+    }
+
+    .img_persons {
+        display: none;
+    }
+
+    .start_main_container {
+        left: 0;
+        text-align: center;
+    }
+
+    .btn_sign {
+        width: 90%;
+        position: unset;
+    }
+
+    .st_text {
+        width: unset;
+        height: unset;
+        margin-left: 0%;
+        /* left: 0%; */
+        /* margin: unset; */
+        text-align: center;
+        /* margin: 20px 90px 20px 0; */
+    }
+
+    .section_start {
+        background-image: none;
+        height: 500px;
+        margin-left: 10%;
+    }
+
+    .mobile_button {
+        display: block;
+    }
+
+    .btnsounds {
+        width: 100%;
+    }
+
+    .sounds_image {
+        height: 500px;
+    }
+
+    .sounds_image img {
+        width: 100%;
+    }
+
+    .plugins_logos {
+        margin-top: 60px;
+    }
+
+    .plugins_text {
+        text-align: center;
+        /* position: relative; */
+        /* left: 200px; */
+    }
+
+    .studio_texts {
+        text-align: center;
+    }
+
+    .stud_text {
+        height: unset;
+        width: unset;
+    }
+
+    .plugins_btn .btnplugins {
+        width: 100%;
+    }
+
+    .btnstudio {
+        width: 100%;
+    }
+
+    .jas_container {
+        margin-left: 12%;
+        margin-top: 10%;
+        width: 380px;
+        height: 100px;
+    }
+
+    .jas_container h2 {
+        font-size: 12px;
+        /* margin-top: 10px; */
+    }
+
+    .button_jas .jasbtn {
+        width: 100px;
+        height: 35px;
+        font-size: 8px;
+    }
+
+    .section_featured_in div > .col-xs-12,
+    .col-sm-12,
+    .col-md-6,
+    .col-lg-2 {
+        text-align: center;
+    }
+
+    #foot1 {
+        margin-top: -12%;
+        margin-left: -14%;
+    }
+
+    #foot2 {
+        margin-top: -12%;
+        margin-left: -30%;
+    }
+
+    #foot3 {
+        margin-top: -24%;
+        margin-left: 24%;
+    }
+
+    #foot4 {
+        margin-top: -34%;
+        margin-left: 44%;
+    }
+
+    #foot5 {
+        margin-top: -34%;
+        margin-left: 64%;
+    }
+
+    #foot6 {
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+
+    #foot7 {
+        margin-top: -37%;
+        margin-left: 30%;
+    }
+
+    #foot8 {
+        margin-top: -37%;
+        margin-left: 56%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .nav_wrapper .logo > img {
+        margin-left: -10%;
+    }
+
+    .btnsounds, .btnstudio{
+        width: 80%;
+    }
+
+    .plugins_btn > .btnplugins, .creators_btn > .btncreators{
+        width: 80%;
+    }
+
+    .jas_container{
+        margin-left: 15%;
+        margin-top: 9%;
+    }
+
+    .footer{
+        height: 600px;
+        margin-right: 20%;
+    }
+
+    .footer img{
+        width: 60px;
+        margin-right: 12%;
+    }
+
+    .footer p{
+        line-height: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 36%;
+        font-size: 10px;
+    }
+
+    #foot2 h4{
+        margin-right: 16%;
+        margin-top: 1% ;
+    }
+
+    #foot3 h4{
+        margin-right: 9%;
+    }
+
+    #foot4 h4{
+        margin-right: 15%;
+    }
+
+    #foot1{
+        margin-top: -26%;
+        margin-left: -38%;
+    }
+    
+    #foot2{
+        margin-left: -38%;
+        margin-bottom: 0%;
+    }
+
+    #foot3{
+        margin-left: -38%;
+        margin-top: 2%;
+    }
+
+    #foot4{
+        margin-left: -38%;
+        margin-top: 2%;
+    }
+
+    #foot5{
+        margin-top: -134%;
+        margin-left: 28%;
+    }
+
+    #foot6{
+        margin-top: -105%;
+        margin-left: 26%;
+    }
+
+    #foot6 h4{
+        margin-left: 36%;
+    }
+
+    #foot7{
+        margin-top: -62%;
+        margin-left: 26%;
+    }
+
+    #foot7 h4{
+        margin-left: 36%;
+        margin-top: -2%;
+    }
+
+    #foot8{
+        margin-left: 26%;
+    }
+
+    #foot8 h4{
+        margin-left: 36%;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+    .jas_container{
+        width: 300px;
+        height: 80px;
+        font-size: 8px;
+        margin-left: 10%;
+        margin-top: 16%;
+        border-radius: 10px;
+    }
+
+    .button_jas .jasbtn{
+        width: 100px;
+        height: 32px;
+        font-size: 8px;
+    }
+
+    .footer{
+        height: 1000px;
+    }
+
+    .footer p{
+        font-size: 12px;
+    }
+
+    #foot1{
+        margin-top: -50%;
+    }
+
+    #foot1 p{
+        margin-left: 64px;
+    }
+
+    #foot2{
+        margin-top: -32%;
+        margin-left: -32%;
+    }
+
+    #foot2 p{
+        margin-left: 28%;
+    }
+
+    #foot2 h4{
+        margin-left: -10%;
+    }
+
+    #foot3{
+        margin-top: 0%;
+    }
+
+    #foot3 h4{
+        margin-left: 5%;
+    }
+
+    #foot3 p{
+        margin-left: 34%;
+    }
+
+    #foot4{
+        margin-top: 2%;
+    }
+
+    #foot4 h4{
+        margin-left: 2%;
+    }
+
+    #foot4 p{
+        margin-left: 34%;
+    }
+
+    #foot5{
+        margin-top: 0%;
+        margin-left: -30%;
+    }
+
+    #foot6{
+        margin-top: 0%;
+        margin-left: -38%;
+    }
+
+    #foot7{
+        margin-top: 0%;
+        margin-left: -38%;
+    }
+
+    #foot8{
+        margin-top: 0%;
+        margin-left: -38%;
+    }
+}
+
+
